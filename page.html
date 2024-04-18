@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../quiz/css/estilo.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="icon" type="image/png" href="../quiz/icon.png">
+    <title>JavaScript Quiz</title>
+</head>
+<body>
+    
+        
+    
+        
+    <div class="corpo">
+        <h3 id="titulo">JavaScript Quiz</h3>
+        <p id="resumo">Bem vindo ao Quiz, são 4 questões cada uma valendo 2 pontos, totalizando 8 pontos, ao final, será exibida uma imagem de acordo com sua pontuação obtida. Boa sorte!!</p>
+        <h4>Pergunta 1: Qual é a forma correta de declarar uma função em JavaScript?</h4>
+        <input type="radio" name="P1"  id="PP1">
+        <label>function minhaFuncao() {}</label>
+        <br>
+        <input type="radio" name="P1"  id="PP2">
+        <label>var minhaFuncao = function() {}</label>
+        <br>
+        <input type="radio" name="P1"  id="PP3">
+        <label>def minhaFuncao() {}</label>
+        <br>
+        <input type="radio" name="P1"  id="PP4">
+        <label>const minhaFuncao = () => {}</label>
+        <br>
+        <hr>
+        <h4>Pergunta 2: Qual é a diferença entre "function declaration" e "function expression" em JavaScript?</h4>
+        <input type="radio" name="P2"  id="P2O1">
+        <label>Não há diferença.</label>
+        <br>
+        <input type="radio" name="P2"  id="P2O2">
+        <label>"Function declaration" é hoisted, enquanto "function expression" não é.</label>
+        <br>
+        <input type="radio" name="P2"  id="P2O3">
+        <label>"Function expression" é hoisted, enquanto "function declaration" não é.</label>
+        <br>
+        <input type="radio" name="P2"  id="P2O4">
+        <label>Ambas não são hoisted.</label>
+        <hr>
+        <h4>Pergunta 3: Qual é a maneira correta de chamar uma função em JavaScript?</h4>
+        <input type="radio" name="P3"  id="P3O1">
+        <label>call minhaFuncao()</label>
+        <br>
+        <input type="radio" name="P3"  id="P3O2">
+        <label>execute minhaFuncao()</label>
+        <br>
+        <input type="radio" name="P3"  id="P3O3">
+        <label>minhaFuncao.call()</label>
+        <br>
+        <input type="radio" name="P3"  id="P3O4">
+        <label>minhaFuncao()</label>
+        <hr>
+        <h4>Pergunta 4: Como você pode passar argumentos para uma função em JavaScript? </h4>
+        <input type="radio" name="P4"  id="P401">
+        <label>Apenas usando a palavra-chave 'argument'.</label>
+        <br>
+        <input type="radio" name="P4"  id="P402">
+        <label>Apenas por referência.</label>
+        <br>
+        <input type="radio" name="P4"  id="P403">
+        <label>Apenas por valor.</label>
+        <br>
+        <input type="radio" name="P4"  id="P404">
+        <label> Por valor ou por referência.</label>
+        <hr>
+        <button class="btn btn-outline-primary" id="bt" onclick="quiz()">Finalizar</button>
+        <br>
+        <div class="final">
+        <img id="imagem">
+        <h5 id="resultado_texto"></h5>
+        <p id="tentar novamente"></p>
+        </div>
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    <script src="../quiz/js/script.js"></script>
+</body>
+</html>

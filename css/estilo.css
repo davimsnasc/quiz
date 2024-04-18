@@ -1,0 +1,39 @@
+body{
+    background-image: url("..quiz/fundo.png");
+    background-size: cover;
+}
+
+.corpo {
+    position: absolute;
+    left: 10%;
+    right: 10%;
+    background-color: ghostwhite;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-style: solid;
+}
+
+#titulo {
+    text-align: center;
+    padding-top: 10px;
+
+}
+
+p {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+#imagem {
+    max-width: 400px;
+    max-height: 200px;
+    border-radius: 5px;
+    margin-top: 20px
+}
+
+.final {
+    text-align: center;
+}
+#resumo {
+    text-align: justify;
+}
